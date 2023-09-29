@@ -8,8 +8,8 @@ import { AuthProvider } from './Auth/AuthContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <AuthProvider> {/* Wrap your entire application with AuthProvider */}
+  <BrowserRouter basename="/ClientsManage">
+    <AuthProvider> 
       <React.StrictMode>
         <App />
       </React.StrictMode>
